@@ -1,0 +1,15 @@
+.footer {
+  text-align: center;
+}
+
+.link-container {
+  display: grid;
+  row-gap: 20px;
+  column-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 50px;
+}
+
+.link {
+  margin: 15px 20px 15px 0;
+}

@@ -1,0 +1,10 @@
+.heading-container {
+  text-align: center;
+}
+
+.heading {
+  font-size: 28px;
+  padding-bottom: 15px;
+  display: inline-block;
+  border-bottom: 5px solid #650080;
+}

@@ -1,0 +1,24 @@
+.skill {
+  text-align: center;
+}
+
+.skill-image {
+  padding: 20px;
+  border: 2px solid #131219;
+}
+
+.skill-title {
+  margin-top: 10px;
+  padding: 5px 0;
+  font-size: 18px;
+  border: 2px solid #650080;
+  opacity: 0;
+  transform: translateY(-20px);
+
+  transition: all 0.2s;
+}
+
+.skill:hover > .skill-title {
+  opacity: 1;
+  transform: translateY(0);
+}
